@@ -1,0 +1,212 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: url(../img/Fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.container{
+	margin-top:20px;
+}
+
+
+
+header, .main, footer{
+	margin-bottom: 20px;
+
+}
+
+.logo{
+	width: 10%;
+	border-radius:50%;
+	margin-bottom:10px;
+	box-shadow: 0 0 15px white;
+	transition: all 1s ease;
+	transform: rotate(360deg);
+}
+
+.menu{
+	width: 100%;
+}
+
+/*.menu:hover{
+	animation:1s goma ease;
+}
+
+@-webkit-keyframes goma{
+
+	0%{
+     transform: scaleX(1.3) scaleY(0.9);
+	}
+
+	30%{
+     transform: scaleX(0.9) scaleY(1.3);
+	}
+
+	60%{
+
+	transform: scaleX(1.1) scaleY(1);
+
+	}
+
+	90%{
+	transform: scaleX(0.9) scaleY(1.1);
+	}
+
+}*/
+
+nav{
+	padding: 7px;
+	border-radius: 10px;
+	background: #fff;
+	overflow: hidden;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav .padre{
+	width: 5%;
+}
+
+header nav .padre > li{
+	float: left;
+}
+
+header nav .padre > li:hover{
+	background: red;
+	border-radius:10px;
+}
+
+header nav ul li ul li a{
+	display: block;
+	background: #000;
+	color: #fff;
+	padding: 10px 25px;
+	text-decoration:none;
+}
+
+
+
+header nav li ul{
+	display: none;
+	width: 90%;
+	position: absolute;
+	z-index: 1;
+	border-radius:10px;
+}
+
+header nav ul li:hover > ul{
+	display:block;
+}
+
+
+
+header nav ul li ul li a:hover{
+	background: #fff;
+	color: #000;
+}
+
+
+.img{
+	z-index: 1;
+	width: 100%;
+	transition: all 0.9s ease;
+}
+
+.img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.Titulo1{
+	color:#fff;
+	margin: 0px auto;
+	background: #000;
+	text-align:center;
+	border-radius: 7px;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+
+
+.pie{
+	border-radius:10px;
+	text-align: center;
+	color:#fff;
+	background:black;
+	padding: 5px;
+}
+
+/*--------Productos---------*/
+
+.imgP{
+	display: block;
+	margin: auto;
+	width:85%;
+}
+
+
+.card{
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.buttonC{
+	display: block;
+    padding: 10px 20px;
+    color: #000;
+    background: green;
+    width: 160px;
+    border-radius:5px;
+    margin: auto;
+}
+
+.buttonC:hover{
+	color:black;
+	background: #30C64D;
+}
+
+ .clasificacion1{
+ background: #09DB0D;
+ width: 100%;
+ padding: 5px;
+ border-radius: 7px;
+ margin-bottom: 20px; 
+ color: #000;
+}
+
+.clasificacion2{
+ background: #FFC128;
+ width: 100%;
+ padding: 5px;
+ border-radius: 7px;
+ margin-bottom: 20px;
+ color: #000; 
+}
+
+
+/*------Historia--------*/
+
+.boxH{
+	background: #fff;
+	width:100%;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	padding: 20px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.valores{
+	margin-left: 20px;
+}
+
