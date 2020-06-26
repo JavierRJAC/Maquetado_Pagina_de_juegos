@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Game Page</title>
+		<link rel="stylesheet" type="text/css" href="../css/Estilos.css">
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	</head>
+	<body>
+
+		<div class="container">
+        
+        <!-- Cabezera -->
+        <div class="row">
+		<header class="col-lg-12 col-md-12 col-ms-12">
+			
+          <img src="../img/logo.jpg" alt="logo" class="logo">
+
+          <nav>
+          	<ul class="padre">
+          		<li><a href="#"><img src="../img/Menu.png" class="menu"></a>
+                 
+                <ul>
+                	  <li><a href="../index.html" class="opciones">Inicio</a></li>
+                    <li><a href="historia.html" class="opciones">Historia</a></li>
+                    <li><a href="productos.html" class="opciones">Productos</a></li>
+                    <li><a href="promociones.html" class="opciones">Promociones y DLCs</a></li>
+                    <li><a href="contactanos.html" class="opciones">Contáctanos</a></li>
+                	
+                </ul>
+                 
+          		</li>
+          	</ul>
+          	
+          </nav>
+
+		</header>
+	    </div>
+
+	    <!--Contenido -->
+
+        <div class="row">
+		 <div class="main col-lg-12 col-md-12 col-ms-12">
+
+
+		 		<div class=" Titulo1 col-lg-12 col-md-12 col-ms-12">
+		 			<h2>Contáctanos</h2>
+		 		</div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-ms-12">
+                      <div class="boxH">
+
+                      <div class="cabezeraF">
+                        <h2>Formulario de Cliente</h2>
+                      </div>
+                      
+                       <div class="formu">
+
+                        <form name="formulario" action="#" method="post" enctype="multipart/form-data">
+                            
+                          <label for="nombre">Nombre:</label>
+                          <input type="text" id="nombre" name="Nombre" placeholder="Nombre..." required="on">
+
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="Email" placeholder="Introdusca Email" required="on" autofocus>
+
+
+                          <input type="submit" id="enviar" value="Enviar">
+                          
+                        </form>
+                         
+                       </div>
+
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-ms-12">
+                        <div class="boxH">
+
+                          <h2 class="aviso">!Importante¡</h2>
+
+                          <p>Si quieres recibir notifiaciones sobre nuevos juegos y nuevas ofertas disponibles porfavor introduce tu correo y nombre para que podamos enviarte promociones y descuentos a tu Email.</p>
+                          
+                          <img src="../img/control1.png" class="imgC">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-ms-12">
+                        <div class="boxH">
+                        <h2>Redes:</h2>
+                        <ul class="valores">
+                          <li><b>Tell:</b>7023-4567</li>
+                          <li><b>Ubicación:</b>Avenida Peralta al lado del hospital Santo Tomas.</li>
+                          <li><b>Facebook:</b>PlayGames</li>
+                          <li><b>Twiter:</b>@PlayGames</li>
+                          <li><b>GitHub:</b><a href="https://github.com/JavierRJAC">Github.com</a></li>
+                        </ul>
+
+                      </div>
+                    </div>
+                </div>
+            	
+            </div>
+		 </div>
+
+         
+         <!-- Pie de Pagina -->
+        <div class="row">
+		<footer class=" col-lg-12 col-md-12 col-ms-12">
+
+			<div class=" pie col-lg-12 col-md-12 col-ms-12">
+		 			<h2>Rodrigo Javier - Play Games</h2>
+
+          <img src="../img/icono1.png" class="iconos">
+          <img src="../img/icono2.png" class="iconos">
+          <img src="../img/icono3.png" class="iconos">
+		 		</div>
+
+		</footer>
+	    </div>
+        
+      </div>
+
+
+      <script type="text/javascript">
+       
+
+       var enviar = document.getElementsByName("formulario")[0];
+
+        var alerta = function(){
+          alert("Datos enviados con !!exito!!");
+        }
+
+
+      enviar.addEventListener("submit", alerta);
+        
+      </script>
+	</body>
+</html>
